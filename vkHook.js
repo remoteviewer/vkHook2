@@ -1,3 +1,5 @@
+alert("vkHook.js loaded")
+
 var IM {
     onKey: function (e) {
         alert("onKey hook success");
