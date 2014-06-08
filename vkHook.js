@@ -1,4 +1,5 @@
-IM.onKey = function (e) {
+var IM {
+    onKey: function (e) {
         alert("onKey hook success");
         var inputActive = (e.target.tagName == 'INPUT' || e.target.tagName == 'TEXTAREA' || hasClass(e.target, 'im_editable') || e.target.getAttribute('contenteditable'));
         
@@ -68,4 +69,5 @@ IM.onKey = function (e) {
                     }
                 }
                     return true;
+    }
 };
